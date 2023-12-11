@@ -2,7 +2,7 @@ job('Aplicacion Node.js DSL') {
     description('Aplicación Node JS DSL para el curso de Jenkins')
     scm {
         git('https://github.com/visumania/nodejsapp.git', 'master') { node ->
-            node / gitConfigName('visumani  ')
+            node / gitConfigName('visumania')
             node / gitConfigEmail('adrian.moreno.mon@gmail.com')
         }
     }
